@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元素浮动</title>
+</head>
+    <style type="text/css">
+        .green {
+            width: 100px; height: 100px;
+            background-color: green;
+            float: left;
+        }
+        .red {
+            width: 200px; height: 150px;
+            background-color: red;
+        }
+        .a {
+            width: 200px;
+            background-color: green;
+        }
+        .b {
+            width: 700px;
+            background-color: red;
+        }
+        .c {
+            width: 300px;
+            background-color: blue;
+        }
+        .a,.b,.c {
+            float: left; height: 200px;
+        }
+    </style>
+<body>
+    <p>文字环绕效果</p>
+    <div class="green"></div>
+    <div class="red">
+        文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕文字环绕
+    </div>
+    <p>横向排版布局</p>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>
